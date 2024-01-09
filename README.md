@@ -7,6 +7,7 @@ This is a simple Godot project that was created by me and my friend Angelo Garci
 ## Usage
 
 To test the demo, it is only necessary to download the Demo.exe file and run it.
+
 https://pyhn.itch.io/visual-novel-demo
 
 ## Dependancies
