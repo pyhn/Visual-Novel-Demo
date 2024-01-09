@@ -1,0 +1,186 @@
+{
+	"events": [
+		{
+			"background": "res://art/Train_Interior.jpg",
+			"event_id": "dialogic_021",
+			"fade_duration": 1.5
+		},
+		{
+			"event_id": "dialogic_015",
+			"id": "anchor-1634488067",
+			"index": 0,
+			"name": "Train SFX"
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 5,
+			"waiting_skippable": true
+		},
+		{
+			"background": "res://art/Black.jpg",
+			"event_id": "dialogic_021",
+			"fade_duration": 1.5
+		},
+		{
+			"event_id": "dialogic_015",
+			"id": "anchor-1634488067",
+			"index": 0,
+			"name": "Exiting Train SFX"
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 3,
+			"waiting_skippable": true
+		},
+		{
+			"background": "res://art/Train_Station.png",
+			"event_id": "dialogic_021",
+			"fade_duration": 2
+		},
+		{
+			"character": "character-1685065622.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[i]Sighs[/i] \"...almost back home.\""
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Stepping out of the train station. The sounds of the distant sounds of the train and crickets is heard  behind you as you make your way home."
+		},
+		{
+			"event_id": "dialogic_015",
+			"id": "anchor-1634488067",
+			"index": 0,
+			"name": "Fade to Street"
+		},
+		{
+			"character": "character-1685065622.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Insert Text"
+		},
+		{
+			"event_id": "dialogic_015",
+			"id": "anchor-1634488067",
+			"index": 0,
+			"name": "Flash and Crash, MC investigates"
+		},
+		{
+			"event_id": "dialogic_015",
+			"id": "anchor-1634488067",
+			"index": 0,
+			"name": "BG change to alley"
+		},
+		{
+			"character": "character-1685065622.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "\"Hello? Is anybody there?\""
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Walking over to the commotion, you walk into the alleyway."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "What greets you is a girl lying within a mess of boxes. "
+		},
+		{
+			"event_id": "dialogic_015",
+			"id": "anchor-1634488067",
+			"index": 0,
+			"name": "Change to new illustrataion"
+		},
+		{
+			"animation": "2-fade_in_up.gd",
+			"animation_length": 2,
+			"animation_wait": true,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1685044366.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Upon getting closer, you see a pair of horns as well as a tail peeking from under her jacket. A Cosplayer?"
+		},
+		{
+			"character": "character-1685044366.json",
+			"event_id": "dialogic_001",
+			"portrait": "Open",
+			"text": "\"...please... I... I don't want to go back...\""
+		},
+		{
+			"animation": "[No Animation]",
+			"animation_length": 2,
+			"animation_wait": true,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1685044366.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "What do you do?"
+		},
+		{
+			"choice": "[call an ambulance]",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"choice": "[bring her home]",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.5",
+		"file": "timeline-1685583393.json",
+		"name": "Intro"
+	}
+}

@@ -1,0 +1,55 @@
+{
+	"events": [
+		{
+			"audio_bus": "BGM",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 1,
+			"file": "res://audio/Maplestory Kerning City.mp3",
+			"volume": 0
+		},
+		{
+			"background": "res://art/Mall.jpg",
+			"event_id": "dialogic_021",
+			"fade_duration": 1.5
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 2
+		},
+		{
+			"animation": "2-fade_in_up.gd",
+			"animation_length": 1.5,
+			"animation_wait": true,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1685044366.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1685044366.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "There's so many cool things to buy!"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.5",
+		"file": "timeline-1685063698.json",
+		"name": "Test Mall"
+	}
+}

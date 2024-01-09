@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Maplestory Rest N Peace.mp3-5bf96e24330bb2d999aaf6f316d051ac.mp3str"
+
+[deps]
+
+source_file="res://audio/Maplestory Rest N Peace.mp3"
+dest_files=[ "res://.import/Maplestory Rest N Peace.mp3-5bf96e24330bb2d999aaf6f316d051ac.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

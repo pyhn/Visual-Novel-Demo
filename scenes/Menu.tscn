@@ -1,0 +1,207 @@
+[gd_scene load_steps=11 format=2]
+
+[ext_resource path="res://art/MENU_WIP.png" type="Texture" id=1]
+[ext_resource path="res://scripts/Menu.gd" type="Script" id=2]
+[ext_resource path="res://fonts/Montserrat-Medium.otf" type="DynamicFontData" id=3]
+[ext_resource path="res://audio/click-short.wav" type="AudioStream" id=4]
+[ext_resource path="res://audio/click-short-confirm.wav" type="AudioStream" id=5]
+[ext_resource path="res://audio/Maplestory Login Theme.mp3" type="AudioStream" id=7]
+
+[sub_resource type="DynamicFont" id=1]
+size = 36
+font_data = ExtResource( 3 )
+
+[sub_resource type="DynamicFont" id=2]
+size = 25
+font_data = ExtResource( 3 )
+
+[sub_resource type="DynamicFont" id=4]
+size = 25
+font_data = ExtResource( 3 )
+
+[sub_resource type="DynamicFont" id=3]
+size = 25
+font_data = ExtResource( 3 )
+
+[node name="Menu" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_horizontal_guides_": [ -71.0 ]
+}
+
+[node name="TextureRect" type="TextureRect" parent="."]
+margin_right = 1280.0
+margin_bottom = 720.0
+texture = ExtResource( 1 )
+expand = true
+
+[node name="top" type="Line2D" parent="."]
+points = PoolVector2Array( 0, 35, 1280, 35 )
+width = 70.0
+default_color = Color( 0.223529, 0.223529, 0.223529, 0.784314 )
+
+[node name="bot" type="Line2D" parent="."]
+points = PoolVector2Array( 0, 685, 1280, 685 )
+width = 70.0
+default_color = Color( 0.223529, 0.223529, 0.223529, 0.784314 )
+
+[node name="menu" type="Line2D" parent="."]
+points = PoolVector2Array( 55, 308, 250, 308 )
+width = 250.0
+default_color = Color( 0.223529, 0.223529, 0.223529, 0.784314 )
+
+[node name="menu2" type="Line2D" parent="."]
+points = PoolVector2Array( 45, 308, 53, 308 )
+width = 250.0
+default_color = Color( 0.223529, 0.223529, 0.223529, 0.784314 )
+
+[node name="title" type="Line2D" parent="."]
+points = PoolVector2Array( 45, 130, 600, 130 )
+width = 90.0
+default_color = Color( 0.223529, 0.223529, 0.223529, 0.784314 )
+
+[node name="title2" type="Line2D" parent="."]
+points = PoolVector2Array( 603, 130, 615, 130 )
+width = 90.0
+default_color = Color( 0.223529, 0.223529, 0.223529, 0.784314 )
+
+[node name="Label" type="Label" parent="."]
+margin_left = 57.0
+margin_top = 88.0
+margin_right = 574.0
+margin_bottom = 126.0
+size_flags_vertical = 6
+custom_colors/font_color = Color( 1, 1, 1, 1 )
+custom_fonts/font = SubResource( 1 )
+text = "everyday life with an "
+uppercase = true
+
+[node name="Label2" type="Label" parent="."]
+margin_left = 57.0
+margin_top = 121.0
+margin_right = 574.0
+margin_bottom = 166.0
+size_flags_vertical = 6
+custom_colors/font_color = Color( 0.992157, 0.580392, 0.278431, 1 )
+custom_fonts/font = SubResource( 1 )
+text = "otherworldly dragon"
+uppercase = true
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+margin_left = 62.0
+margin_top = 196.0
+margin_right = 242.0
+margin_bottom = 428.0
+grow_horizontal = 2
+size_flags_horizontal = 0
+size_flags_vertical = 0
+
+[node name="New Game" type="Button" parent="VBoxContainer"]
+margin_right = 180.0
+margin_bottom = 38.0
+focus_mode = 0
+custom_colors/font_color = Color( 1, 1, 1, 1 )
+custom_colors/font_color_hover = Color( 0.498039, 0.498039, 0.498039, 1 )
+custom_colors/font_color_pressed = Color( 0.992157, 0.580392, 0.278431, 1 )
+custom_fonts/font = SubResource( 2 )
+enabled_focus_mode = 0
+text = "NEW GAME"
+flat = true
+align = 0
+
+[node name="Continue" type="Button" parent="VBoxContainer"]
+margin_top = 42.0
+margin_right = 180.0
+margin_bottom = 80.0
+focus_mode = 0
+custom_colors/font_color = Color( 1, 1, 1, 1 )
+custom_colors/font_color_hover = Color( 0.498039, 0.498039, 0.498039, 1 )
+custom_colors/font_color_pressed = Color( 0.992157, 0.580392, 0.278431, 1 )
+custom_fonts/font = SubResource( 4 )
+enabled_focus_mode = 0
+text = "CONTINUE"
+flat = true
+align = 0
+
+[node name="Options" type="Button" parent="VBoxContainer"]
+margin_top = 84.0
+margin_right = 180.0
+margin_bottom = 122.0
+focus_mode = 0
+custom_colors/font_color = Color( 1, 1, 1, 1 )
+custom_colors/font_color_hover = Color( 0.498039, 0.498039, 0.498039, 1 )
+custom_colors/font_color_pressed = Color( 0.992157, 0.580392, 0.278431, 1 )
+custom_fonts/font = SubResource( 4 )
+enabled_focus_mode = 0
+text = "OPTIONS"
+flat = true
+align = 0
+
+[node name="Credits" type="Button" parent="VBoxContainer"]
+margin_top = 126.0
+margin_right = 180.0
+margin_bottom = 164.0
+focus_mode = 0
+custom_colors/font_color = Color( 1, 1, 1, 1 )
+custom_colors/font_color_hover = Color( 0.498039, 0.498039, 0.498039, 1 )
+custom_colors/font_color_pressed = Color( 0.992157, 0.580392, 0.278431, 1 )
+custom_fonts/font = SubResource( 4 )
+enabled_focus_mode = 0
+text = "CREDITS"
+flat = true
+align = 0
+
+[node name="Quit" type="Button" parent="VBoxContainer"]
+margin_top = 168.0
+margin_right = 180.0
+margin_bottom = 206.0
+focus_mode = 0
+custom_colors/font_color = Color( 1, 1, 1, 1 )
+custom_colors/font_color_hover = Color( 0.498039, 0.498039, 0.498039, 1 )
+custom_colors/font_color_pressed = Color( 0.992157, 0.580392, 0.278431, 1 )
+custom_fonts/font = SubResource( 3 )
+enabled_focus_mode = 0
+text = "QUIT"
+flat = true
+align = 0
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+visible = false
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 50.0
+margin_top = 100.0
+margin_right = -100.0
+margin_bottom = -100.0
+size_flags_horizontal = 0
+size_flags_vertical = 0
+
+[node name="Hoversound" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 4 )
+bus = "SFX"
+
+[node name="Clicksound" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 5 )
+bus = "SFX"
+
+[node name="BGM" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 7 )
+autoplay = true
+bus = "BGM"
+
+[node name="EndingsLabel" type="Label" parent="."]
+margin_right = 40.0
+margin_bottom = 14.0
+
+[connection signal="mouse_entered" from="VBoxContainer/New Game" to="." method="_on_New_Game_mouse_entered"]
+[connection signal="pressed" from="VBoxContainer/New Game" to="." method="_on_New_Game_pressed"]
+[connection signal="mouse_entered" from="VBoxContainer/Continue" to="." method="_on_Continue_mouse_entered"]
+[connection signal="pressed" from="VBoxContainer/Continue" to="." method="_on_Continue_pressed"]
+[connection signal="mouse_entered" from="VBoxContainer/Options" to="." method="_on_Options_mouse_entered"]
+[connection signal="pressed" from="VBoxContainer/Options" to="." method="_on_Options_pressed"]
+[connection signal="mouse_entered" from="VBoxContainer/Credits" to="." method="_on_Credits_mouse_entered"]
+[connection signal="pressed" from="VBoxContainer/Credits" to="." method="_on_Credits_pressed"]
+[connection signal="mouse_entered" from="VBoxContainer/Quit" to="." method="_on_Quit_mouse_entered"]
+[connection signal="pressed" from="VBoxContainer/Quit" to="." method="_on_Quit_pressed"]

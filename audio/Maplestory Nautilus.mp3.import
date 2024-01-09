@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Maplestory Nautilus.mp3-1d12b1f44f0d5ff47b8c356f9467f9b4.mp3str"
+
+[deps]
+
+source_file="res://audio/Maplestory Nautilus.mp3"
+dest_files=[ "res://.import/Maplestory Nautilus.mp3-1d12b1f44f0d5ff47b8c356f9467f9b4.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

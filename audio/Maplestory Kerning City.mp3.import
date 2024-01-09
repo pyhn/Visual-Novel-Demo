@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Maplestory Kerning City.mp3-44377148677eb6ca067af7b00bb837be.mp3str"
+
+[deps]
+
+source_file="res://audio/Maplestory Kerning City.mp3"
+dest_files=[ "res://.import/Maplestory Kerning City.mp3-44377148677eb6ca067af7b00bb837be.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

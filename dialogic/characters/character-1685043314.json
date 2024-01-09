@@ -1,0 +1,21 @@
+{
+	"color": "#ffffffff",
+	"description": "",
+	"display_name": "",
+	"display_name_bool": false,
+	"id": "character-1685043314.json",
+	"mirror_portraits": true,
+	"name": "Sus",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": 0,
+	"offset_y": 200,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": "res://art/sus.png"
+		}
+	],
+	"scale": 200,
+	"theme": "default-theme.cfg"
+}

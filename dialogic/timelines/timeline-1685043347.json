@@ -1,0 +1,261 @@
+{
+	"events": [
+		{
+			"audio_bus": "BGM",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 1,
+			"file": "res://audio/[MapleStory BGM] Henesys Floral Life.mp3",
+			"volume": 0
+		},
+		{
+			"background": "res://art/BG_SKIES.png",
+			"event_id": "dialogic_021",
+			"fade_duration": 1.5
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 2,
+			"waiting_skippable": true
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Man I really don't feel like coming to school today..."
+		},
+		{
+			"animation": "2-fade_in_up.gd",
+			"animation_length": 1.5,
+			"animation_wait": true,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1685044366.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1685044366.json",
+			"event_id": "dialogic_001",
+			"portrait": "Open",
+			"text": "Hey what's up? "
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1685044366.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "character-1685065622.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Hi?"
+		},
+		{
+			"character": "character-1685044366.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "Open",
+			"question": "I was just wandering around, but I was feeling pretty bored...Do you want to do something?"
+		},
+		{
+			"choice": "Yes",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1685044366.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "Open",
+			"question": "Yaay! What do you wanna do?"
+		},
+		{
+			"choice": "Go to the Beach",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1685044366.json",
+			"event_id": "dialogic_001",
+			"portrait": "Open",
+			"text": "Oooo the Beach! Let's go!"
+		},
+		{
+			"animation": "5-fade_out_down.gd",
+			"animation_length": 1.5,
+			"animation_wait": true,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1685044366.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1.5
+		},
+		{
+			"change_timeline": "timeline-1685063689.json",
+			"event_id": "dialogic_020"
+		},
+		{
+			"choice": "Go to the Mall",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1685044366.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "The Mall sounds fun! Let's go!"
+		},
+		{
+			"animation": "5-fade_out_down.gd",
+			"animation_length": 1.5,
+			"animation_wait": true,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1685044366.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1.5
+		},
+		{
+			"change_timeline": "timeline-1685063698.json",
+			"event_id": "dialogic_020"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"choice": "No",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1685044366.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Awe okayy...I'll just find someone else then...Bye bye!"
+		},
+		{
+			"animation": "5-fade_out_down.gd",
+			"animation_length": 1.5,
+			"animation_wait": true,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1685044366.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1.5
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Huh, well that was weird."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I guess I'll head to school."
+		},
+		{
+			"change_timeline": "timeline-1685064891.json",
+			"event_id": "dialogic_020"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.5",
+		"file": "timeline-1685043347.json",
+		"name": "Test Intro"
+	}
+}

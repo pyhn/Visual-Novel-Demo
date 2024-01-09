@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/[MapleStory BGM] Henesys Floral Life.mp3-fa4b2d6d03ff3f284af0f1ce89e2793c.mp3str"
+
+[deps]
+
+source_file="res://audio/[MapleStory BGM] Henesys Floral Life.mp3"
+dest_files=[ "res://.import/[MapleStory BGM] Henesys Floral Life.mp3-fa4b2d6d03ff3f284af0f1ce89e2793c.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

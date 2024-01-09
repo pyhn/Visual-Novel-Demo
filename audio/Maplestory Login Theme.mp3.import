@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Maplestory Login Theme.mp3-01c488d75610d51c7b5d6a8e411e3a54.mp3str"
+
+[deps]
+
+source_file="res://audio/Maplestory Login Theme.mp3"
+dest_files=[ "res://.import/Maplestory Login Theme.mp3-01c488d75610d51c7b5d6a8e411e3a54.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0
